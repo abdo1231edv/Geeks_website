@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(#000, #fff);
+  height: 500vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+}
+header .logo {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.navigation a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding-left: 30px;
+}
+.navigation a:hover {
+  color: #000;
+}
+.main {
+  background-image: url(https://images.ctfassets.net/iyiurthvosft/1Ckuv1mgSTBcnX3O0lO2eL/cc9909e964d8dabf5fd135b98a5a76b6/iStock-1146304621.jpg?fm=jpg&fl=progressive&q=50&w=900&h=900&fit=fill);
+  top: 500px;
+  height: 450px;
+  width: 1240px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: flex-end;
+  position: absolute;
+  color: #000;
+  padding: 60px;
+  left: 2px;
+}
+.main ul{
+  margin: 10px;
+  font-size: 20px;
+
+}
+.main img {
+  position: absolute;
+  width: 100%;
+}
+.content {
+  background-image: url(https://www.new-educ.com/wp-content/uploads/2020/09/virtual-reality-660x330.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: flex-end;
+  position: absolute;
+  color: #000;
+  padding: 60px;
+}
+.content h1 {
+  margin: 20px;
+  font-size: 60px;
+}
+.content p {
+  margin: 10px;
+  font-size: 20px;
+}
+.century{
+  background-image: url(https://www.momschoiceawards.com/wp-content/uploads/2021/02/Screen-Shot-2021-02-23-at-1.00.43-PM.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: flex-end;
+  position: absolute;
+  color: #000;
+  padding: 60px;
+  top: 1077px;
+  height: 470px;
+  width: 1238px;
+  left: 2px;
+}
+.ab{
+  background-image: url(https://www.oxfordlearning.com/wp-content/uploads/2006/09/make-the-homework-hour-happy-hour-top-10-tips-860x420.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: flex-end;
+  position: absolute;
+  color: #000;
+  padding: 60px;
+  top: 595px;
+  height: 470px;
+  width: 1238px;
+  left: 2px;
+}
+.cd{
+  background-image: url(https://imageio.forbes.com/specials-images/imageserve/60fa55b0bb0508f4ac956653/0x0.jpg?format=jpg&width=1200);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: flex-end;
+  position: absolute;
+  color: #000;
+  padding: 60px;
+  top: 595px;
+  height: 679px;
+  width: 1237px;
+  left: 2px;
+}
+.cd ul{
+  margin: 10px;
+  font-size: 20px;
+}
+.ep{
+  background-image: url(https://moe.gov.eg//media/gimdhs45/img-20220411-wa0009.jpeg?anchor=center&mode=crop&width=1560&height=528&rnd=132941880686270000);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: flex-end;
+  position: absolute;
+  color: #000;
+  padding: 60px;
+  top: 800px;
+  height: 670px;
+  width: 1278px;
+  right: 5px;
+}
+.hm{
+  background-image: url(https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/86395/s960_thank_you_sticky_note.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: flex-end;
+  position: absolute;
+  color: #000;
+  padding: 60px;
+  top: 790px;
+  height: 670px;
+  width: 1278px;
+  right: 5px;
+}
+@media(max-width:1300px) {
+  *{
+    font-size: 85%;
+  }
+}
+@media(max-width:1170px) {
+  *{
+    font-size: 80%;
+  }
+}
+@media(max-width:1000px) {
+  *{
+   text-align: center;
+  }
+}
